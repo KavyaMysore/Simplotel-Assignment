@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+
+nav {
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-bar li {
+    margin-right: 25px;
+    letter-spacing: 5px;    
+}
+.nav-bar>#navimg{
+    margin-left:280px ;
+   
+}
+.nav-bar>#navimg1{
+    margin-left:50px;
+    
+}
+
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.container {
+    padding: 0px;
+}
+
+.colored-div {
+    background: linear-gradient(to right,rgba(243,117,176,0.938),rgb(236,236,73));
+    height: 570px;
+    width: 100%;
+   
+}
+
+.content {
+    background-image: url('./img1.jpg');
+    height: 450px;
+    background-size: cover;
+    padding: 20px;
+}
+
+.content-inner {
+    background: rgba(240, 94, 118, 0.6); /* Pink with transparency */
+    width: 25rem;
+    min-height: 160px;
+    margin-left: 20px;
+    text-align: left;
+    padding: 10px 19px;
+    margin-top: 130px;
+
+}
+
+
+
+
+.centered-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right,rgba(243,117,176,0.938),rgb(236,236,73));
+    min-height: 620px;
+
+}
+h1{
+    margin-top: 4px;
+    font-family: Arial,sans-serif;
+}
+.cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    background: #f0f0f0;
+    width: 200px;
+    text-align: center;
+    border-radius: 0px 50px 0px 50px;
+    height: 290px;
+
+
+}
+
+.images{
+    border-radius: 0px 50px 0px 0px;
+
+}
+
+h3{
+    font-family: Arial,sans-serif;
+}
+
+p{
+    font-family: Arial,sans-serif;
+    font-size: small;
+}
+
+.small-div {
+    background: #FFB6C1;
+    height: 50px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10rem;
+    margin-top: 50px;
+    
+}
+
+     /* Media query for responsiveness */
+     @media (max-width: 768px) {
+        .nav-bar {
+            flex-direction: column;
+            align-items: center;
+        }
+        .nav-bar a {
+            margin: 10px 0;
+        }
+    }
+
+
+
+    @media (max-width: 483px) {
+        .content-inner {
+            width: 15rem;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 350px) {
+        .content-inner {
+            width: 10rem;
+        }
+    }
